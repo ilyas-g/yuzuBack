@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "players",
+  "info": {
+    "singularName": "player",
+    "pluralName": "players",
+    "displayName": "Player",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "pluginOptions": {},
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {}
+    }
+  }
+}
