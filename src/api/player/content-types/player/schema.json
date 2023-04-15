@@ -26,6 +26,11 @@
         "images"
       ],
       "pluginOptions": {}
+    },
+    "idStartGG": {
+      "type": "string",
+      "required": true,
+      "unique": true
     }
   }
 }
