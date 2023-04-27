@@ -31,6 +31,18 @@
       "type": "string",
       "required": true,
       "unique": true
+    },
+    "Biography": {
+      "type": "text"
+    },
+    "Twitter": {
+      "type": "string"
+    },
+    "Instagram": {
+      "type": "string"
+    },
+    "Twitch": {
+      "type": "string"
     }
   }
 }
