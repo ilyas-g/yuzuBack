@@ -32,17 +32,22 @@
       "required": true,
       "unique": true
     },
-    "Biography": {
+    "biography": {
       "type": "text"
     },
-    "Twitter": {
+    "twitter": {
       "type": "string"
     },
-    "Instagram": {
+    "instagram": {
       "type": "string"
     },
-    "Twitch": {
+    "twitch": {
       "type": "string"
+    },
+    "game": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::game.game"
     }
   }
 }
