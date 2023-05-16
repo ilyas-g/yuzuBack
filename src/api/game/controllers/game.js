@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * game controller
+ * game controller 
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
